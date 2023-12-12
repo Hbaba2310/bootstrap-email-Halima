@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Bootstrap</title>
 </head>
@@ -38,7 +38,7 @@
 </nav>
 
 <!-- Search bar -->
-<div class="boxContainer">
+<div class="boxContainer mt-4">
     <table class="elementContainer">
         <tr>
             <td>
@@ -51,27 +51,41 @@
 <!--header-->
 <h2 class="inbox">Inbox</h2>
 
-<!-- Fluid container -->
-<div class="container-fluid mt-5">
-    <!-- First Card -->
-    <div class="card mb-3">
-        <div class="card-header">
-            <h5 class="mb-0">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCard1">
-                    Noreply: Thank You For Your Purchase!
-                </button>
-            </h5>
-        </div>
-        <div class="collapse" id="collapseCard1">
-            <div class="card-body">
-                <h5 class="card-title">Thank You for Your Purchase!</h5>
-                <h6>noreplyjaimefoxx@gmail.com</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#replyModal1">Reply</a>
-            </div>
+<!-- Container items with Bootstrap breakpoints -->
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">    
         </div>
     </div>
+</div>
 
+<!-- First card with Bootstrap breakpoints -->
+<div class="card mb-3">
+    <div class="card-header">
+        <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCard1">
+                Noreply: Thank You For Your Purchase!
+            </button>
+        </h5>
+    </div>
+    <div class="collapse" id="collapseCard1">
+        <div class="card-body">
+            <h5 class="card-title">Thank You for Your Purchase!</h5>
+            <h6>noreplyjaimefoxx@gmail.com</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#replyModal1">Reply</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Container items with Bootstrap breakpoints -->
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">    
+        </div>
+    </div>
+</div>
     <!-- Second Card -->
     <div class="card mb-3">
         <div class="card-header">
@@ -91,6 +105,14 @@
         </div>
     </div>
 
+    <!-- Container items with Bootstrap breakpoints -->
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">    
+        </div>
+    </div>
+</div>
+
     <!-- Third Card -->
     <div class="card mb-3">
         <div class="card-header">
@@ -109,6 +131,14 @@
             </div>
         </div>
     </div>
+
+<!-- Container items with Bootstrap breakpoints -->
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">    
+        </div>
+    </div>
+</div>
 
     <!-- Fourth Card -->
     <div class="card mb-3">
@@ -131,7 +161,7 @@
 </div>
 
 <!-- Compose button at the bottom right -->
-<button class="btn btn-primary compose-button fixed-bottom fixed-right m-3" data-toggle="modal" data-target="#composeModal">Compose!</button>
+<button class="btn btn-primary compose-button fixed-bottom fixed-right m-3" data-toggle="modal" data-target="#composeModal">Compose Email</button>
 
 <!-- Modal for Email 1 -->
 <div class="modal fade" id="replyModal1" tabindex="-1" role="dialog" aria-labelledby="replyModalLabel" aria-hidden="true">
@@ -182,3 +212,5 @@
 
 </body>
 </html>
+
+
