@@ -1,23 +1,46 @@
+/* Add dark mode styles here */
+body.dark-mode {
+    background-color: #130202;
+    color: #48490e;
+}
 
-.boxContainer{
-    margin:auto; 
-    margin-top: 0%;
-    position: relative;
-    width: 300px;
-    height: 40px;
-    border: 4px solid #3d0505;
-    padding: 0px 10px;
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.search-bar {
+    background-color: transparent;
+    border: 1px solid #0e0202;
     border-radius: 20px;
-
+    padding: 10px;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #944e4e;
 }
 
-.elementContainer{
+.search-bar input {
+    background-color: transparent;
+    border: none;
+    color: #a10909;
+    outline: none;
     width: 100%;
-    height: 100%;
-    vertical-align: middle;
 }
 
-.search{
-    border: none; 
+.settings-dropdown {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
+@media (max-width:600px) {
+.card-title {
+        font-size: 0.9rem;
+    }
+p{
+        font-size: 0.9rem;
+}
